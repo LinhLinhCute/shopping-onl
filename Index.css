@@ -255,17 +255,23 @@ h3 > * {
   .Header .hotline{
     display: none;
   }
-  .slogan{
-    display: none;
-  }
    .search{
     display: none;
   }
+  .Header .slogan{
+    display: none;
+  }
   .Auth2{
-    margin-left: 70%;
+   margin-left: 15%;
+   margin-top: 4%;
   }
 }
-
+@media screen and (max-width: 500px){
+  
+  .Auth2{
+    margin-left: 15%;
+  }
+}
 .contain-3 {
   background-color: rgba(165, 42, 42, 0.521);
   grid-area: contain3;
